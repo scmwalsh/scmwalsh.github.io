@@ -98,6 +98,12 @@ aside {
     padding: 0;
 }
 
+@media (max-width: 480px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
