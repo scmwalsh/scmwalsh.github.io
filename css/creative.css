@@ -52,8 +52,10 @@ p {
 }
 
 .profile {
-   padding-bottom: 30px;
-   border-radius: 40px;
+    width: 66%;
+    max-width: 1000px;
+    padding-bottom: 30px;
+    border-radius: 40px;
 }
 
 .skills {
@@ -77,6 +79,11 @@ p {
 
 .text-faded {
     color: rgba(255,255,255,.7);
+}
+
+.icon-img {
+    margin: auto;
+    width: 40%;
 }
 
 section {
