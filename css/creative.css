@@ -296,6 +296,11 @@ header .header-content .header-content-inner p {
     max-width: 650px;
 }
 
+.portfolio-photos {
+    max-height:219px;
+    overflow-y: hidden;
+}
+
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
