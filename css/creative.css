@@ -636,6 +636,10 @@ body {
     background: #DF192A;
 }
 
+.hvr-buzz:hover {
+  opacity: 0.7;
+}
+
 /*.portfolio-box-caption {
     background-color: #2a2a2a !important;
 }*/
