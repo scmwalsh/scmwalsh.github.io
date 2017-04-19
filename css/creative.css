@@ -11,11 +11,11 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: futura, Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
-    max-width: 50px;
+/*    max-width: 50px;*/
     border-color: white;
     border-width: 3px;
 }
@@ -50,9 +50,11 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
-
+.hiThere {
+    text-align: left ;
+}
 .profile {
-    width: 66%;
+    width: 85%;
     max-width: 1000px;
     padding-bottom: 30px;
     border-radius: 40px;
@@ -63,11 +65,193 @@ p {
     padding-bottom: 30px;
     border-radius: 40px;
 }
+.col-md-6.portfolio-item{
+  padding-right: 2px !important;
+  padding-left: 2px !important;
+}
+.col-md-4.portfolio-item {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+.container.containercat {
+    width: 90% !important;
+}
+.container.containerdog {
 
-.homepage {
-    padding-top: 50px;
+/*padding-top: 5%;
+*/}
+
+.col-sm-6.cat {
+    padding-left: 70px;
 }
 
+.aboutMeCopy {
+    font-size: 3vh;
+    width: 50%;
+    color: white;
+    text-align: left;
+    margin-left: 15%;
+        font-family: "ChronicleSSm", "Open Sans", sans-serif;
+}
+
+h2.section-headingN.me {
+    width: 50%;
+    padding-top: 0 !important;
+    text-align: left;
+    margin-left: 15%;
+    color: white;
+    text-decoration: underline;
+}
+
+.aboutMe{
+
+}
+.aboutMeSection {
+    padding-top: 1%;
+}
+
+.profilePic {
+    padding-left: 5px;
+    width: 90%;
+    height: auto;
+
+}
+.col-sm-6.pic {
+    padding-right: 4px;
+    padding-top: 4%;
+}
+.jumbotron {
+    position: relative;
+    background-image: url("img/header.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    }
+/*PORTFOLIO HOVER
+*/
+.pus:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #336699;
+}
+.portHead {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.portCopy {
+  color: white;
+  font-size: 36px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.portHeadSmall {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.portCopySmall {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.portLink {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-decoration: underline;
+}
+
+.shes {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.shes span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.shes span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.shes:hover span {
+  padding-right: 25px;
+}
+
+.shes:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.dick {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.pus {
+  position: relative;
+/*  width: 50%;
+*/}
+.pus:hover .overlay {
+  opacity: 0.8;
+}
+
+/*.homepage {
+    padding-top: 50px;
+}
+*/
 .bg-primary {
     background-repeat: no-repeat;
     background-color: #222;
@@ -192,7 +376,7 @@ aside {
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        color: #336699;
     }
 
     .navbar-default.affix .nav > li>a:hover,
@@ -249,7 +433,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 60%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -264,14 +448,27 @@ header .header-content .header-content-inner p {
 
     header .header-content .header-content-inner p {
         margin-right: auto;
-        margin-left: auto;
-        max-width: 80%;
-        font-size: 18px;
+        max-width: 90%;
+        font-size: 3vw;
+        text-align: left;
     }
+
 }
 
 .section-heading {
     margin-top: 0;
+}
+h2.section-headingN {
+    padding-top: 5%;
+    font-size: 46px;
+    color: #336699;
+
+}
+.latestCopy {
+    font-size: 22px;
+    color: #;
+
+
 }
 
 .service-box {
@@ -352,6 +549,8 @@ header .header-content .header-content-inner p {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
+
+
 }
 
 .call-to-action h2 {
@@ -514,6 +713,10 @@ body {
 .social {
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+
+
 }
 
 .social ul {
@@ -638,6 +841,50 @@ body {
 
 .hvr-buzz:hover {
   opacity: 0.7;
+}
+
+#map {
+    height: 70%;
+      }
+#aboutCard {
+    height: 70%;
+    background-image: url("../img/aboutBack2.jpg");
+    background-size: cover;
+    overflow: hidden;
+ }     
+ .aboutContain {
+    padding-top:15%;
+ }
+ ul {
+    padding: 0px;
+ }
+ h1.hiThere.aboutName {
+    text-align: center;
+    line-height: 30px;
+ } 
+ img.img-responsive.issaMe {
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 
+}
+
+
+@media(max-width:1375px) {
+    .aboutMeCopy {
+        font-size: 2.5vh;
+    }
+
+}
+@media(max-width:768px) {
+    .aboutMeCopy {
+        font-size: 2.5vh;
+        width: 85%;
+        margin-left: 10%;
+    }
+    h2.section-headingN.me {
+        width: 100%;
+        margin-left: 10%;
+    }
 }
 
 /*.portfolio-box-caption {
