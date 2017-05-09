@@ -882,6 +882,15 @@ body {
             .latestCopy {
             font-size: 18px !important;
         }
+        .portCopy {
+            font-size: 28px;
+        }
+        .portHead {
+            font-size: 18px;
+        }
+            .aboutMeSection {
+        padding-top: 0;
+    }
 }
     header .header-content .header-content-inner p{
         text-align: left;
@@ -890,9 +899,7 @@ body {
     h2.section-headingN.me {
         width: 100%;
     }
-    .aboutMeSection {
-        padding-top: 0;
-    }
+
 }
 @media(max-width:375px) {
         .aboutMeCopy {
