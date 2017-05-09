@@ -878,7 +878,7 @@ body {
     .aboutMeCopy {
         font-size: 2.5vh;
         width: 85%;
-        margin-left: 15%;
+        margin-left: 10%;
     }
     header .header-content .header-content-inner p{
         text-align: left;
@@ -887,7 +887,16 @@ body {
     h2.section-headingN.me {
         width: 100%;
     }
+    .aboutMeSection {
+        padding-top: 0;
+    }
 }
+@media(max-width:375px) {
+        .aboutMeCopy {
+            margin-left: 7% !important;
+        }
+}
+
 
 /*.portfolio-box-caption {
     background-color: #2a2a2a !important;
