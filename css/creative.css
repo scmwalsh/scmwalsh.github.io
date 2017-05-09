@@ -467,7 +467,6 @@ h2.section-headingN {
     font-size: 22px;
     color: #;
 
-
 }
 
 .service-box {
@@ -880,6 +879,10 @@ body {
         width: 85%;
         margin-left: 10%;
     }
+            .latestCopy {
+            font-size: 18px !important;
+        }
+}
     header .header-content .header-content-inner p{
         text-align: left;
     }
@@ -895,7 +898,7 @@ body {
         .aboutMeCopy {
             margin-left: 7% !important;
         }
-}
+
 
 
 /*.portfolio-box-caption {
