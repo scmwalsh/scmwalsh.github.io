@@ -62,7 +62,6 @@ p {
 
 .skills {
     border-color: black;
-    padding-bottom: 30px;
     border-radius: 40px;
 }
 .col-md-6.portfolio-item{
@@ -267,7 +266,7 @@ h2.section-headingN.me {
 
 .icon-img {
     margin: auto;
-    width: 40%;
+    width: 20%;
 }
 
 section {
@@ -432,7 +431,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 60%;
+        top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -476,7 +475,7 @@ h2.section-headingN {
 
 @media(min-width:992px) {
     .service-box {
-        margin: 20px auto 0;
+        margin: 20px auto;
     }
 }
 
