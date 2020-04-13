@@ -73,3 +73,7 @@ h1.hiTherePoppy {
     padding-bottom: ;
     color: #222;
 }
+
+.clientRoster.col-lg-12 {
+        padding: 3% 15% 5% 15%;
+}
