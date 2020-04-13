@@ -259,7 +259,7 @@ h2.section-headingN.me {
 
 .bg-dark {
     color: #fff;
-    background-color: #fff;
+    background-color: #222;
 }
 
 .text-faded {
@@ -860,6 +860,7 @@ body {
  h1.hiThere.aboutName {
     text-align: center;
     line-height: 30px;
+    padding-top:3%;
  } 
  img.img-responsive.issaMe {
     width: 20%;
@@ -915,6 +916,10 @@ body {
 
 h1.hiTherePoppy {
     text-align: center !important;
+}
+
+h1.hiThere.morePadding {
+    padding-bottom: 4%;
 }
 
 
