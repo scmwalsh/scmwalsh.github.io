@@ -181,6 +181,8 @@ h2.section-headingN.me {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
 }
 
 .portLink {
@@ -257,7 +259,7 @@ h2.section-headingN.me {
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #fff;
 }
 
 .text-faded {
@@ -870,6 +872,9 @@ body {
     .aboutMeCopy {
         font-size: 2.2vh;
     }
+    .image-bg-fixed-height {
+        height: auto;
+    }
 
 }
 @media(max-width:768px) {
@@ -907,6 +912,10 @@ body {
         .aboutMeCopy {
             margin-left: 7% !important;
         }
+
+h1.hiTherePoppy {
+    text-align: center !important;
+}
 
 
 
