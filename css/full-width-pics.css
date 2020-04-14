@@ -81,3 +81,7 @@ h1.hiTherePoppy {
 .latestCopyBottom {
     padding-top: 3%;
 }
+.gimmePadding {
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+}

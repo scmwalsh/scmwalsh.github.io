@@ -922,6 +922,10 @@ h1.hiThere.morePadding {
     padding-bottom: 4%;
 }
 
+.gimmePadding {
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+}
 
 
 /*.portfolio-box-caption {
