@@ -85,3 +85,32 @@ h1.hiTherePoppy {
     padding-left: 75px !important;
     padding-right: 75px !important;
 }
+
+.col-lg-8.col-lg-offset-2.text-center.likeWhatYouSee {
+    padding-top: 5%;
+}
+
+@media(max-width:414px) {
+        .aboutContain {
+            padding-top: 0 !important;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+    flex-direction: column;
+        }
+        div#aboutCard{
+            display: flex;
+        }
+        section#contact {
+            padding: 0!important;
+        }
+        img.img-responsive.issaMe {
+            width: 50% !important;
+        }
+        nav#mainNav{
+            display: none !important;
+        }
+        body {
+            margin-top: 0 !important;
+        }
+    }
